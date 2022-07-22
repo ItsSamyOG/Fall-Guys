@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 2196556102591664002}
   - component: {fileID: 6900710005849454781}
   - component: {fileID: 6905136953387794941}
+  - component: {fileID: 2263378225617387372}
   m_Layer: 0
   m_Name: Xesc
   m_TagString: Untagged
@@ -79,10 +80,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 1.0947406
-  m_Height: 4.705946
+  m_Radius: 0.990412
+  m_Height: 4.303638
   m_Direction: 1
-  m_Center: {x: 0.0587461, y: -0.30390453, z: -0.027943134}
+  m_Center: {x: 0.05874622, y: -0.10275054, z: -0.05715525}
 --- !u!54 &6900710005849454781
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -112,8 +113,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  rotationSpeed: 100
+  rotationSpeed: 200
   jumpForce: 5
+--- !u!65 &2263378225617387372
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168105658266824539}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0458784, y: 4.276597, z: 1.6555799}
+  m_Center: {x: 0.010970831, y: -0.16821814, z: -0.076708496}
 --- !u!1 &2679987006056259418
 GameObject:
   m_ObjectHideFlags: 0
